@@ -1,0 +1,23 @@
+{
+  "name": "goit-js-hw-10",
+  "version": "1.0.0",
+  "description": "modulo 10",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html ",
+    "predeploy": "npm run build",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "lizeth castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.2.6"
+  }
+}
